@@ -11,6 +11,6 @@ import UIKit
 //自定义NSTextAttachment的类
 class EmoticonAttachment: NSTextAttachment {
     
-    var chs : String?  //用来存放emotion.chs
+    var chs : String?  //用来传递emotion.chs
     
 }
