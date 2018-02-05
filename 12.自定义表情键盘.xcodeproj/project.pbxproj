@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14B765522025A73100E7B63D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B765512025A73100E7B63D /* AppDelegate.swift */; };
+		14B765542025A73100E7B63D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B765532025A73100E7B63D /* ViewController.swift */; };
+		14B765572025A73100E7B63D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B765552025A73100E7B63D /* Main.storyboard */; };
+		14B765592025A73100E7B63D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B765582025A73100E7B63D /* Assets.xcassets */; };
+		14B7655C2025A73100E7B63D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B7655A2025A73100E7B63D /* LaunchScreen.storyboard */; };
+		14B765652025A9B200E7B63D /* EmoticonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B765642025A9B200E7B63D /* EmoticonViewController.swift */; };
+		14B765672025B92200E7B63D /* EmoticonCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B765662025B92200E7B63D /* EmoticonCollectionFlowLayout.swift */; };
+		14B765692025C23C00E7B63D /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14B765682025C23B00E7B63D /* Emoticons.bundle */; };
+		14B7656C2025C32100E7B63D /* EmoticonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7656B2025C32100E7B63D /* EmoticonManager.swift */; };
+		14B7656E2025C33100E7B63D /* EmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7656D2025C33100E7B63D /* EmoticonPackage.swift */; };
+		14B765702025C33F00E7B63D /* Emoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B7656F2025C33F00E7B63D /* Emoticon.swift */; };
+		14B765722025D3ED00E7B63D /* EmoticonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B765712025D3ED00E7B63D /* EmoticonCollectionViewCell.swift */; };
+		14B76574202612BD00E7B63D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B76573202612BD00E7B63D /* Common.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14B7654E2025A73100E7B63D /* 12.自定义表情键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "12.自定义表情键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B765512025A73100E7B63D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14B765532025A73100E7B63D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14B765562025A73100E7B63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14B765582025A73100E7B63D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14B7655B2025A73100E7B63D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14B7655D2025A73100E7B63D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B765642025A9B200E7B63D /* EmoticonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonViewController.swift; sourceTree = "<group>"; };
+		14B765662025B92200E7B63D /* EmoticonCollectionFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonCollectionFlowLayout.swift; sourceTree = "<group>"; };
+		14B765682025C23B00E7B63D /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		14B7656B2025C32100E7B63D /* EmoticonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonManager.swift; sourceTree = "<group>"; };
+		14B7656D2025C33100E7B63D /* EmoticonPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonPackage.swift; sourceTree = "<group>"; };
+		14B7656F2025C33F00E7B63D /* Emoticon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoticon.swift; sourceTree = "<group>"; };
+		14B765712025D3ED00E7B63D /* EmoticonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonCollectionViewCell.swift; sourceTree = "<group>"; };
+		14B76573202612BD00E7B63D /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14B7654B2025A73100E7B63D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B765452025A73100E7B63D = {
+			isa = PBXGroup;
+			children = (
+				14B765502025A73100E7B63D /* 12.自定义表情键盘 */,
+				14B7654F2025A73100E7B63D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14B7654F2025A73100E7B63D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14B7654E2025A73100E7B63D /* 12.自定义表情键盘.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B765502025A73100E7B63D /* 12.自定义表情键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				14B765632025A99200E7B63D /* Emoticon */,
+				14B765512025A73100E7B63D /* AppDelegate.swift */,
+				14B765532025A73100E7B63D /* ViewController.swift */,
+				14B765552025A73100E7B63D /* Main.storyboard */,
+				14B765582025A73100E7B63D /* Assets.xcassets */,
+				14B7655A2025A73100E7B63D /* LaunchScreen.storyboard */,
+				14B7655D2025A73100E7B63D /* Info.plist */,
+			);
+			path = "12.自定义表情键盘";
+			sourceTree = "<group>";
+		};
+		14B765632025A99200E7B63D /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				14B7656A2025C30500E7B63D /* Model */,
+				14B765682025C23B00E7B63D /* Emoticons.bundle */,
+				14B765642025A9B200E7B63D /* EmoticonViewController.swift */,
+				14B765662025B92200E7B63D /* EmoticonCollectionFlowLayout.swift */,
+				14B765712025D3ED00E7B63D /* EmoticonCollectionViewCell.swift */,
+				14B76573202612BD00E7B63D /* Common.swift */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		14B7656A2025C30500E7B63D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14B7656B2025C32100E7B63D /* EmoticonManager.swift */,
+				14B7656D2025C33100E7B63D /* EmoticonPackage.swift */,
+				14B7656F2025C33F00E7B63D /* Emoticon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14B7654D2025A73100E7B63D /* 12.自定义表情键盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B765602025A73100E7B63D /* Build configuration list for PBXNativeTarget "12.自定义表情键盘" */;
+			buildPhases = (
+				14B7654A2025A73100E7B63D /* Sources */,
+				14B7654B2025A73100E7B63D /* Frameworks */,
+				14B7654C2025A73100E7B63D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12.自定义表情键盘";
+			productName = "12.自定义表情键盘";
+			productReference = 14B7654E2025A73100E7B63D /* 12.自定义表情键盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14B765462025A73100E7B63D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Elvis;
+				TargetAttributes = {
+					14B7654D2025A73100E7B63D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 14B765492025A73100E7B63D /* Build configuration list for PBXProject "12.自定义表情键盘" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14B765452025A73100E7B63D;
+			productRefGroup = 14B7654F2025A73100E7B63D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14B7654D2025A73100E7B63D /* 12.自定义表情键盘 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14B7654C2025A73100E7B63D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B7655C2025A73100E7B63D /* LaunchScreen.storyboard in Resources */,
+				14B765692025C23C00E7B63D /* Emoticons.bundle in Resources */,
+				14B765592025A73100E7B63D /* Assets.xcassets in Resources */,
+				14B765572025A73100E7B63D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B7654A2025A73100E7B63D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B765722025D3ED00E7B63D /* EmoticonCollectionViewCell.swift in Sources */,
+				14B765542025A73100E7B63D /* ViewController.swift in Sources */,
+				14B765672025B92200E7B63D /* EmoticonCollectionFlowLayout.swift in Sources */,
+				14B7656E2025C33100E7B63D /* EmoticonPackage.swift in Sources */,
+				14B76574202612BD00E7B63D /* Common.swift in Sources */,
+				14B7656C2025C32100E7B63D /* EmoticonManager.swift in Sources */,
+				14B765652025A9B200E7B63D /* EmoticonViewController.swift in Sources */,
+				14B765522025A73100E7B63D /* AppDelegate.swift in Sources */,
+				14B765702025C33F00E7B63D /* Emoticon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14B765552025A73100E7B63D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B765562025A73100E7B63D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14B7655A2025A73100E7B63D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14B7655B2025A73100E7B63D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14B7655E2025A73100E7B63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14B7655F2025A73100E7B63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14B765612025A73100E7B63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TUTPVRWZN7;
+				INFOPLIST_FILE = "12.自定义表情键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Elvis.-2--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14B765622025A73100E7B63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TUTPVRWZN7;
+				INFOPLIST_FILE = "12.自定义表情键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Elvis.-2--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14B765492025A73100E7B63D /* Build configuration list for PBXProject "12.自定义表情键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B7655E2025A73100E7B63D /* Debug */,
+				14B7655F2025A73100E7B63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14B765602025A73100E7B63D /* Build configuration list for PBXNativeTarget "12.自定义表情键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14B765612025A73100E7B63D /* Debug */,
+				14B765622025A73100E7B63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14B765462025A73100E7B63D /* Project object */;
+}
