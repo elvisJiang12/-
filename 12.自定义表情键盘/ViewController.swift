@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     @IBOutlet var textView: UITextView!
     
-    private lazy var emoticonVc : EmoticonViewController = EmoticonViewController()
+    private lazy var emoticonVc : EmoticonViewController = EmoticonViewController.init { (emoticon) in
+        self.insertEmoticonIntoTextView(emoticon : emoticon)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +33,38 @@ class ViewController: UIViewController {
 //        }
     }
 
+    //把表情插入textView的光标所在处
+    private func insertEmoticonIntoTextView(emoticon : Emoticon) {
+        //1.空白表情
+        if emoticon.isEmptyEmoticon {
+            return
+        }
+        
+        //2.删除按钮
+        if emoticon.isRemoveEmoticon {
+            //删除光标位置的前一个字符
+            textView.deleteBackward()
+            return
+        }
+        
+        //3.emoji表情
+        if emoticon.emojiCode != nil {
+            //3.1获取光标所在的位置:UITextRange
+            let textRange = textView.selectedTextRange!
+            //3.2替换emoji表情
+            textView.replace(textRange, withText: emoticon.emojiCode!)
+            
+            return
+        }
+        
+        //4.image表情
+        if emoticon.pngPath != nil {
+            
+            
+            return
+        }
+        
+    }
 
 
 }
