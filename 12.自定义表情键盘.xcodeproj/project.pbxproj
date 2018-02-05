@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1481FB942028C2A9009C000F /* EmoticonAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1481FB932028C2A9009C000F /* EmoticonAttachment.swift */; };
 		14B765522025A73100E7B63D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B765512025A73100E7B63D /* AppDelegate.swift */; };
 		14B765542025A73100E7B63D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B765532025A73100E7B63D /* ViewController.swift */; };
 		14B765572025A73100E7B63D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B765552025A73100E7B63D /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1481FB932028C2A9009C000F /* EmoticonAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonAttachment.swift; sourceTree = "<group>"; };
 		14B7654E2025A73100E7B63D /* 12.自定义表情键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "12.自定义表情键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B765512025A73100E7B63D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14B765532025A73100E7B63D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				14B765662025B92200E7B63D /* EmoticonCollectionFlowLayout.swift */,
 				14B765712025D3ED00E7B63D /* EmoticonCollectionViewCell.swift */,
 				14B76573202612BD00E7B63D /* Common.swift */,
+				1481FB932028C2A9009C000F /* EmoticonAttachment.swift */,
 			);
 			path = Emoticon;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1481FB942028C2A9009C000F /* EmoticonAttachment.swift in Sources */,
 				14B765722025D3ED00E7B63D /* EmoticonCollectionViewCell.swift in Sources */,
 				14B765542025A73100E7B63D /* ViewController.swift in Sources */,
 				14B765672025B92200E7B63D /* EmoticonCollectionFlowLayout.swift in Sources */,

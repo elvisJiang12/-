@@ -59,6 +59,6 @@ extension EmoticonCollectionViewCell {
         
         //设置子控件的属性
         emoticonBtn.isUserInteractionEnabled = false
-        emoticonBtn.titleLabel?.font = UIFont.systemFont(ofSize: 30)
+        emoticonBtn.titleLabel?.font = UIFont.systemFont(ofSize: 30) //emoji表情的大小
     }
 }

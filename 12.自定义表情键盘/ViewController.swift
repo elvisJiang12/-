@@ -59,13 +59,54 @@ class ViewController: UIViewController {
         
         //4.image表情
         if emoticon.pngPath != nil {
+            //4.1根据图片的路径创建"属性字符串"
+            let attachment = EmoticonAttachment()
+            attachment.image = UIImage.init(contentsOfFile: emoticon.pngPath!)
+            attachment.chs = emoticon.chs
+            //设置图片的尺寸
+            let font = textView.font!
+            attachment.bounds = CGRect(x: 0, y: -4, width: font.lineHeight, height: font.lineHeight)
             
+            let attriImageString = NSAttributedString.init(attachment: attachment)
+            
+            //4.2创建可变的属性字符串
+            let attriMString = NSMutableAttributedString(attributedString: textView.attributedText)
+            
+            //4.3将图片属性字符串, 替换到可变属性字符串的光标所在位置
+            let range = textView.selectedRange
+            attriMString.replaceCharacters(in: range, with: attriImageString)
+            
+            //显示至textView
+            textView.attributedText = attriMString
+            
+            //!!重置textView文字font
+            textView.font = font
+            //!!光标位置调整
+            textView.selectedRange = NSRange.init(location: range.location + 1, length: 0)
             
             return
         }
         
     }
 
-
+    //image表情转字符串后,才能发送给服务器
+    @IBAction func sendBtnClick() {
+        //1.获取textView的属性字符串
+        let mAttriString = NSMutableAttributedString.init(attributedString: textView.attributedText)
+        
+        //2.遍历属性字符串
+        let range = NSRange(location: 0, length: mAttriString.length)
+        mAttriString.enumerateAttributes(in: range, options: []) { (dict, range, _) in
+//            print(dict)
+//            print(range)
+            if let attachment = dict[NSAttributedStringKey(rawValue: "NSAttachment")] as? EmoticonAttachment {
+                mAttriString.replaceCharacters(in: range, with: attachment.chs!)
+            }
+        }
+        
+        //3.获取字符串
+        print(mAttriString.string)
+    }
+    
 }
 

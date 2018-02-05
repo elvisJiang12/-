@@ -34,7 +34,18 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="6Bc-IA-0Ow"/>
+                    <navigationItem key="navigationItem" id="6Bc-IA-0Ow">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="IhJ-fJ-WbN">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qsv-2Q-E2l">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="发送"/>
+                                <connections>
+                                    <action selector="sendBtnClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="8SM-Wr-rlf"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="textView" destination="iI6-Vd-nZp" id="bZc-wt-Avr"/>
                     </connections>
