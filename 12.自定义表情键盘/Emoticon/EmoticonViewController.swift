@@ -33,6 +33,8 @@ class EmoticonViewController: UIViewController {
         super.viewDidLoad()
         
         setupUI()
+        
+        
     }
     
 }
@@ -60,6 +62,7 @@ extension EmoticonViewController {
         cons += NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[cView]-0-[tBar]-0-|", options: [.alignAllLeft, .alignAllRight], metrics: nil, views: views)
         //添加约束
         view.addConstraints(cons)
+        
         
         //3.准备collectionView和ToolBar
         prepareForCollectionView()

@@ -9,6 +9,6 @@
 import UIKit
 
 //定义collectionView的常量数据
-let numberOfItemsInOneRow : CGFloat = 7
+let numberOfItemsInOneRow : CGFloat = 6
 let numberOfLinsInOnePage : CGFloat = 3
-let numverOfItemsInOnePage = numberOfItemsInOneRow * numberOfLinsInOnePage
+let numverOfItemsInOnePage  : CGFloat = 18 //numberOfItemsInOneRow * numberOfLinsInOnePage
