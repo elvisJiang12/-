@@ -10,6 +10,9 @@ import UIKit
 
 class MatchEmoticon: NSObject {
     
+    //MARK:- 定义单例属性
+    static let shareInstance = MatchEmoticon()
+    
     //MARK:- 懒加载的属性
     private lazy var manager : EmoticonManager = EmoticonManager()
     
